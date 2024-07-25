@@ -8,7 +8,15 @@
 
 #### CONDICIONAIS
 
-O que são condicionais
+As condicionais apontam condições que impõem uma regra a ser analisada para então escolher um caminho a seguir. Por padrão, as condicionais terão sempre duas saídas: ou elas serão verdadeiras ou elas serão falsas.
+
+Entenda as condicionais como uma estrada na qual, ao chegar em seu fim, existem duas vias, sendo uma à direita e outra à esquerda. Neste cenário, observa-se alguns fatos:
+
+Deve-se escolher uma das opções
+Não é possível escolher ambas opções ao mesmo tempo
+Caso a via da esquerda seja escolhida, a da direita será descartada
+Caso a via da direita seja escolhida, a da esquerda será descartada
+Ao se escolher uma via, toda a estrutura da via concorrente nunca será visitada
 
 ---
 
