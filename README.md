@@ -37,4 +37,8 @@ O usuário e a senha estivessem incorretos
 
 Veja, então, que a única possibilidade de este código ingressar dentro do bloco do IF, é se ambas as verificações forem verdadeiras.
 
+TEMOS TAMBÉM O ELIF QUE É UMA JUNÇÃO DO ELSE COM O IF.
+VOCÊ PODE TER QUANTOS ELIF'S VOCÊ QUISER DESDE QUE ESTEJA ENTRE O IF E O ELSE., MAS QUANTO MAIOR SEU BLOCO DE CONDIÇÕES, MAIS TEMPO O ALGORITMO FICARÁ PROCESSANDO.
+É PARA QUANDO TEM MAIS DE 2 CONDIÇÕES.
+
 ---
