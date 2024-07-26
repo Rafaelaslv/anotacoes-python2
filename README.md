@@ -18,7 +18,25 @@ Caso a via da esquerda seja escolhida, a da direita será descartada
 Caso a via da direita seja escolhida, a da esquerda será descartada
 Ao se escolher uma via, toda a estrutura da via concorrente nunca será visitada
 
+Agora traga esse cenário fictício para dentro do mundo computacional, aplicando a mesma lógica a um exemplo bastante trivial que experimentamos praticamente todos os dias: fazer o login em alguma área restrita (e-mail, rede social, plataformas diversas, etc.).
+
+Pressuponha a existência de dois campos: usuário e senha Quais os critérios necessários para que o login seja realizado com sucesso?
+
+Se você respondeu algo como “o usuário digitado deve corresponder ao usuário armazenado em banco de dados e a senha digitada deve corresponder à senha armazenada em banco de dados”, então sua resposta está correta!
+
+Observe que no meio desta frase existem algumas palavras-chave e essas palavras-chave você precisa, ou notá-las, entender que serão utilizadas de alguma forma. Neste caso, as palavras-chave mencionadas são: “se”, “e” e “igual”.
+
+O “se” é a nossa condição, uma vez que para algo acontecer, a condição deverá ser satisfeita: “O login deverá ser realizado apenas SE…”. Porém, existem duas regras para que o login seja realizado: tanto o usuário quanto a senha devem corresponder, respectivamente, aos valores previamente armazenados em banco de dados.
+
+Dessa forma, não basta apenas o usuário estar correto, a senha também precisa estar. Da mesma maneira, não basta apenas a senha estar correta, o usuário também precisa estar. Obviamente, o pior cenário seria aquele em que nem o usuário e nem a senha estivessem corretos; definitivamente a área restrita não seria carregada neste caso!
+
+Esta análise de regras tem uma ligação direta com a Lógica Proposicional - este tema eu abordo em meu canal no Youtube e você pode dar uma conferida lá acessando o link disponível no Módulo 8 deste material.
+
 ---
+
+### IF/Else
+
+Veja a sintaxe a seguir:
 
 usuario = "python"
 senha = "123"
@@ -50,3 +68,6 @@ VOCÊ PODE TER QUANTOS ELIF'S VOCÊ QUISER DESDE QUE ESTEJA ENTRE O IF E O ELSE.
 É PARA QUANDO TEM MAIS DE 2 CONDIÇÕES.
 
 ---
+
+### TIPOS DE CONDICIONAIS
+
