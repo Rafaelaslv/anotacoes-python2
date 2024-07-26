@@ -104,3 +104,5 @@ Assim que uma condicional atender aos requisitos, ou seja, obtiver saída verdad
 
 Existe ainda o que chamamos de condicionais encadeadas, que basicamente são condicionais dentro de condicionais. Essa estrutura acaba sendo um pouco mais complexa mas é perfeitamente funcional.
 
+Diferentemente da forma anterior, temos agora uma estrutura principal com apenas um IF e um ELSE. Caso a condição da linha 48 seja atendida, o algoritmo encerra na linha 49, informando que o Login foi realizado com sucesso, porém, caso algum dos dados (ou ambos) estejam incorretos, o algoritmo é direcionado ao ELSE, da linha 50.
+
