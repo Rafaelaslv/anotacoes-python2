@@ -8,6 +8,13 @@
 
 #### CONDICIONAIS
 
+Uma condição é algo que precisa ser atendido para que uma outra ação aconteça.
+
+Então para que uma ação seja excecutada, uma outra ação precisa ser verdadeira.
+
+SE CHOVER, SAIO COM GUARDA-CHUVA
+SE NÃO CHOVER, NÃO SAIO COM GUARDA-CHUVA
+
 As condicionais apontam condições que impõem uma regra a ser analisada para então escolher um caminho a seguir. Por padrão, as condicionais terão sempre duas saídas: ou elas serão verdadeiras ou elas serão falsas.
 
 Entenda as condicionais como uma estrada na qual, ao chegar em seu fim, existem duas vias, sendo uma à direita e outra à esquerda. Neste cenário, observa-se alguns fatos:
@@ -31,6 +38,20 @@ O “se” é a nossa condição, uma vez que para algo acontecer, a condição 
 Dessa forma, não basta apenas o usuário estar correto, a senha também precisa estar. Da mesma maneira, não basta apenas a senha estar correta, o usuário também precisa estar. Obviamente, o pior cenário seria aquele em que nem o usuário e nem a senha estivessem corretos; definitivamente a área restrita não seria carregada neste caso!
 
 Esta análise de regras tem uma ligação direta com a Lógica Proposicional - este tema eu abordo em meu canal no Youtube e você pode dar uma conferida lá acessando o link disponível no Módulo 8 deste material.
+
+OS TIPOS DE CONDICIONAIS:
+
+IF/Else
+Switch Case(match)
+Ternário
+
+PODEMOS TER AFIRMAÇÕES COMPOSTAS:
+SE CHOVER E (ESSE E É OS 2 E'S COMERCIAIS, DO OPERADOR DO TIPO LÓGICO) FOR DOMINGO SAIO COM GUARDA-CHUVA
+SE NÃO CHOVER, NÃO SAIO COM GUARDA-CHUVA
+
+E PODEMOS TER ESSAS PROPOSIÇÕES DE FORMA SIMPLES:
+SE CHOVER, SAIO COM GUARDA-CHUVA
+SE NÃO CHOVER, NÃO SAIO COM GUARDA-CHUVA
 
 ---
 
@@ -70,4 +91,16 @@ VOCÊ PODE TER QUANTOS ELIF'S VOCÊ QUISER DESDE QUE ESTEJA ENTRE O IF E O ELSE.
 ---
 
 ### TIPOS DE CONDICIONAIS
+
+Para fins de otimização do algoritmo, pode-se melhorar essa mesma estrutura utilizando um recurso que na programação chamamos de “ou se” e, no Python, é conhecido como “elif” (uma versão curta de um “else if”, bastante comum em outras linguagens.
+
+O elif propõe opções extras para a condicional, permitindo que o algoritmo decida por caminhos paralelos caso a primeira verificação resulte em falsa.
+
+O comando elif tem praticamente o mesmo escopo que o IF, porém, analisa outras regras.
+
+É importante que você compreenda que, assim que uma condicional atender aos requisitos, ou seja, obtiver saída verdadeira, ela para sua execução, ou seja, se, porventura, o elif da linha 32 vier a ser executado (caso o usuário tenha digitado o usuário correto mas a senha incorreta), todo o restante do bloco de condições não será invocado. Lembra-se do exemplo das vias? Se uma das vias for tomada, a outra será descartada.
+
+Assim que uma condicional atender aos requisitos, ou seja, obtiver saída verdadeira, ela para sua execução, ou seja, se, porventura, o elif da linha 32 vier a ser executado (caso o usuário tenha digitado o usuário correto mas a senha incorreta), todo o restante do bloco de condições não será invocado.
+
+Existe ainda o que chamamos de condicionais encadeadas, que basicamente são condicionais dentro de condicionais. Essa estrutura acaba sendo um pouco mais complexa mas é perfeitamente funcional.
 
