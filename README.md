@@ -116,3 +116,9 @@ A estrutura segue a mesma lógica.
 
 idade = 18
 print("É MAIOR") if idade >= 18 else print("É MENOR")
+
+Você pode usar o ternário quando você tiver uma situação de condicional em que você tem apenas 2 saídas, porque você condensa/compacta a estrutura do seu código.
+
+O Python tem uma pegada de deixar a sintaxe muito mais limpa/diminuta, então se você conseguir deixar a sintaxe do Python que já é limpa e compacta e você conseguir deixar mais limpa e compacta ainda, melhor para você a nível de compreensão, processamento e armazenagem.
+
+---
