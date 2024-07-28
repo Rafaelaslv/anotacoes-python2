@@ -106,3 +106,13 @@ Existe ainda o que chamamos de condicionais encadeadas, que basicamente são con
 
 Diferentemente da forma anterior, temos agora uma estrutura principal com apenas um IF e um ELSE. Caso a condição da linha 48 seja atendida, o algoritmo encerra na linha 49, informando que o Login foi realizado com sucesso, porém, caso algum dos dados (ou ambos) estejam incorretos, o algoritmo é direcionado ao ELSE, da linha 50.
 
+---
+
+### CONDICIONAL DO TIPO TERNÁRIO
+
+Com essa condicional, é possível resolver em apenas uma linha o que você gasta 4 ou 5 linhas utilizando o if/else.
+
+A estrutura segue a mesma lógica.
+
+idade = 18
+print("É MAIOR") if idade >= 18 else print("É MENOR")
