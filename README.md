@@ -55,7 +55,7 @@ SE NÃO CHOVER, NÃO SAIO COM GUARDA-CHUVA
 
 ---
 
-### IF/Else
+### IF/ELSE
 
 Veja a sintaxe a seguir:
 
@@ -146,3 +146,23 @@ A estrutura do Match é mais compacta que o IF/ELSE, o que torna seu uso bastant
 Alguns casos, determinados comandos não ficam propriamente alinhados à esquerda da tela.
 
 Este recurso é denominado indentação e serve basicamente para demonstrar de forma visual os blocos pais, filhos, netos, bisnetos, etc. Cada nível de recuo, representa um bloco hierárquico, ou seja, o bloco recuado PERTENCE ao bloco antecessor.
+
+Na maioria das linguagens este recurso tem um apelo visual para orientar o programador, porém, em Python, esse recurso tem um apelo funcional, ou seja, se você não aplicar a indentação da forma correta, o seu código literalmente deixará de funcionar.
+
+### TÓPICOS AVANÇADOS
+
+A lógica de programação é a base para que você se torne um programador de excelência. Mas a lógica inicia fora na computação, você sabia disso? Todos os conceitos utilizados dentro da programação são, na verdade, originados aqui, no mundo real e alguns foram sabiamente levados para dentro da matemática, como a Lógica Proposicional.
+
+A Lógica proposicional é a base necessária para que você domine com eficiência a Lógica de Programação, desta forma, deixarei aqui alguns vídeos que podem te ajudar nessa jornada. Esses vídeos são do meu canal, o CódigoCEO, no Youtube. https://www.youtube.com/watch?v=d8CkDq65zco&list=PLGz-ioJ5m_Xtt_9coiTu9mbXjFLrUvjpb
+
+---
+
+CÓDIGOS UTILIZADOS NA DISCIPLINA:  https://github.com/FaculdadeDescomplica/Python
+
+---
+
+### Referência Bibliográfica
+
+Python.org. Mais controles e ferramentas. Disponível em <https://docs.python.org/3/tutorial/controlflow.html> . Acesso em 10/11/2022
+
+Python.org. What 's New In Python 3.10. Disponível em <https://docs.python.org/3/whatsnew/3.10.html> (adaptado). Acesso em 10/11/2022
