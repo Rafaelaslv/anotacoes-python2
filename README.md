@@ -110,15 +110,39 @@ Diferentemente da forma anterior, temos agora uma estrutura principal com apenas
 
 ### CONDICIONAL DO TIPO TERNÁRIO
 
+Uma condicional do tipo ternário é uma forma simplificada de se fazer uma verificação do tipo IF/ELSE.
+
+Este recurso é utilizado quando se tem uma condição curta de, basicamente, duas possibilidades.
+
+No caso do exemplo de usuário e senha, o ternário não seria o mais adequado, uma vez que neste exemplo existem 4 possíveis saídas.
+
 Com essa condicional, é possível resolver em apenas uma linha o que você gasta 4 ou 5 linhas utilizando o if/else.
 
 A estrutura segue a mesma lógica.
 
+A estrutura de um ternário consiste em fazer uma pergunta e apontar o que ocorreria se a resposta fosse verdadeira ou falsa.
+
 idade = 18
 print("É MAIOR") if idade >= 18 else print("É MENOR")
+
+Primeiro se descreve a ação a ser executada e depois se aponta a condição.
+
+“Escreva ‘é um’ SE variável a for igual a 1, senão, escreva ‘não é 1’”.
 
 Você pode usar o ternário quando você tiver uma situação de condicional em que você tem apenas 2 saídas, porque você condensa/compacta a estrutura do seu código.
 
 O Python tem uma pegada de deixar a sintaxe muito mais limpa/diminuta, então se você conseguir deixar a sintaxe do Python que já é limpa e compacta e você conseguir deixar mais limpa e compacta ainda, melhor para você a nível de compreensão, processamento e armazenagem.
 
 ---
+
+### SWITCH CASE (MATCH)
+
+Um outro tipo de condicional amplamente utilizado é o que, em outras linguagens, chamamos de switch/case. No Python, este comando é conhecido como MATCH, que tenta localizar um determinado padrão e “permite que os programas extraiam informações de tipos de dados complexos, ramificando a estrutura de dados e apliquem ações específicas com base em diferentes formas de dados”.
+
+A estrutura do Match é mais compacta que o IF/ELSE, o que torna seu uso bastante agradável por gerar um código mais compacto.
+
+### O CONCEITO DE BLOCOS
+
+Alguns casos, determinados comandos não ficam propriamente alinhados à esquerda da tela.
+
+Este recurso é denominado indentação e serve basicamente para demonstrar de forma visual os blocos pais, filhos, netos, bisnetos, etc. Cada nível de recuo, representa um bloco hierárquico, ou seja, o bloco recuado PERTENCE ao bloco antecessor.
